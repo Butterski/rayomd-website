@@ -1,0 +1,17 @@
+{
+  "name": "RayoMD",
+  "short_name": "RayoMD",
+  "description": "Tiny native Markdown-to-PDF converter for Windows and Linux.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0a0d12",
+  "theme_color": "#0a0d12",
+  "icons": [
+    {
+      "src": "assets/images/rayomd.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

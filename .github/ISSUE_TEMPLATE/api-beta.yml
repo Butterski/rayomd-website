@@ -1,0 +1,60 @@
+name: API beta request
+description: Share a non-confidential Markdown-to-PDF workload for the hosted RayoMD pilot.
+title: "API beta: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for evaluating the RayoMD API beta. Do not include confidential documents, credentials, customer data, or private infrastructure details.
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Workflow
+      options:
+        - CI documentation
+        - Generated reports
+        - AI-generated documents
+        - Bulk conversion
+        - Embedded application
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: volume
+    attributes:
+      label: Expected monthly volume
+      options:
+        - Under 1,000 PDFs
+        - 1,000-10,000 PDFs
+        - 10,000-100,000 PDFs
+        - More than 100,000 PDFs
+    validations:
+      required: true
+  - type: input
+    id: current-solution
+    attributes:
+      label: Current solution
+      placeholder: Puppeteer, Pandoc, Gotenberg, custom code, none
+  - type: textarea
+    id: blocker
+    attributes:
+      label: Main requirement or blocker
+      description: Describe the one capability that would determine whether you can adopt the API.
+    validations:
+      required: true
+  - type: dropdown
+    id: timing
+    attributes:
+      label: Integration timing
+      options:
+        - Ready to test within 30 days
+        - Within 90 days
+        - Researching for later
+    validations:
+      required: true
+  - type: checkboxes
+    id: price
+    attributes:
+      label: Founding offer
+      options:
+        - label: I would consider $29/month for up to 10,000 successful conversions if the beta works with my documents.

@@ -1,0 +1,62 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Pages /Kids [6 0 R ] /Count 1 >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<<  /Length 1596 >>
+stream
+q 0.02 0.02 0.02 rg BT /F2 26 Tf 1 0 0 1 54 762 Tm (RayoMD 2.3.0) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 733.4 Tm (This release strengthens exact source recovery and keeps ordinary exports on the) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 717.88 Tm (unchanged lightweight PDF path.) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 674.85 Tm (Highlights) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 647.65 Tm (- Bounded reversible PDF metadata) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 625.13 Tm (- SHA-256 source integrity checks) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 602.6 Tm (- Clear privacy disclosure before source embedding) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 580.08 Tm (- Windows and Linux release verification) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 557.55 Tm (- No browser or bundled runtime on the native path) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 512.53 Tm (Upgrade) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 485.33 Tm (Download the current package, replace the existing binary, then run:) Tj ET Q
+q 0.95 0.95 0.93 rg 54 461.48 487 17.83 re f Q
+q 0.12 0.12 0.12 rg BT /F3 9.5 Tf 1 0 0 1 62 466.8 Tm (rayomd --doctor) Tj ET Q
+q 0.95 0.95 0.93 rg 54 448.65 487 17.83 re f Q
+q 0.12 0.12 0.12 rg BT /F3 9.5 Tf 1 0 0 1 62 453.98 Tm (rayomd --export notes.md notes.pdf) Tj ET Q
+q 0.95 0.95 0.93 rg 54 435.83 487 17.83 re f Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 418.33 Tm (See the project documentation for the complete compatibility matrix.) Tj ET Q
+
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 1 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 2 0 R /F2 3 0 R /F3 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 1 0 R >>
+endobj
+8 0 obj
+<< /Producer (RayoMD Native Standard PDF) /Creator (RayoMD) /Title (Markdown Export) >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000073 00000 n 
+0000000143 00000 n 
+0000000218 00000 n 
+0000000286 00000 n 
+0000001935 00000 n 
+0000002081 00000 n 
+0000002130 00000 n 
+trailer
+<< /Size 9 /Root 7 0 R /Info 8 0 R >>
+startxref
+2233
+%%EOF

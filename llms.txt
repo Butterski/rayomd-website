@@ -1,0 +1,22 @@
+# RayoMD
+
+> RayoMD is an Apache-2.0 native Markdown-to-PDF converter written in C++17. It provides a compact Windows application and Linux CLI without requiring Chromium, Pandoc, LaTeX, or a bundled runtime on the default native path.
+
+## Main pages
+
+- [RayoMD product page](__SITE_URL__/): Product scope, downloads, output examples, and measured performance.
+- [Hosted API beta](__SITE_URL__/api/): Proposed API contract, limits, founding offer, and beta request.
+- [Privacy](__SITE_URL__/privacy/): Data handling for this static website and the GitHub-based beta request.
+- [Source repository](https://github.com/Butterski/rayomd): Source code, releases, issues, and license.
+- [Documentation](https://github.com/Butterski/rayomd/wiki): Getting started, CLI reference, supported Markdown, benchmarks, and reversible PDFs.
+- [Windows speed comparison](https://github.com/Butterski/rayomd/wiki/Markdown-to-PDF-Speed-Comparison-2026-07-13): Fresh-process comparison against md-to-pdf and Pandoc plus XeLaTeX, with methodology and scope caveats.
+- [Optimization audit](https://github.com/Butterski/rayomd/wiki/RayoMD-2.2.0-Optimization-Audit-2026-07-13): Bounded batch-worker throughput, memory, binary size, and verification data.
+- [Reversible PDF profile](https://github.com/Butterski/rayomd/wiki/Reversible-PDFs): Exact source embedding, inspection, recovery, privacy warning, and format limits.
+
+## Important scope
+
+RayoMD targets simple reports, CI artifacts, batch conversion, embedded applications, and offline use. Native mode intentionally does not promise full CommonMark, HTML/CSS fidelity, TeX math, citations, syntax highlighting, or arbitrary templates. Use a browser renderer, Pandoc, or LaTeX when those features are required.
+
+## Verified operating characteristics
+
+RayoMD supports bounded parallel folder and stdin batches. In the dated v2.2.0 audit, six-worker folder batches improved median throughput by 2.7x on Windows and 4.5x on Linux native ext4 versus one worker, with a documented peak-memory increase. Reversible exports use the PDF 2.0 rayomd-source/1 profile; embedding is opt-in and exposes the complete source. The default Linux package avoids a libcurl runtime dependency, while a separate curl-enabled package supports URL images.

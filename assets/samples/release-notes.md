@@ -1,22 +1,22 @@
-# RayoMD 2.3.0
+# RayoMD 5.2.5
 
-This release strengthens exact source recovery and keeps ordinary exports on the unchanged lightweight PDF path.
+Exports run about a fifth faster than 5.2.2 (essay-style text 36 %), folders of small notes convert a quarter faster than 5.2.4, and an editor can rebuild its preview from the blocks an edit changed.
 
 ## Highlights
 
-- Bounded reversible PDF metadata
-- SHA-256 source integrity checks
-- Clear privacy disclosure before source embedding
-- Windows and Linux release verification
-- No browser or bundled runtime on the native path
+- One long page for screens: `--page-size=210mmxauto`
+- Print output: `--black-text` and `--hide-tags`
+- Incremental previews through `TinyPdf::BuildSession`
+- Every PDF of a document without the new options keeps its bytes
 
 ## Upgrade
 
-Download the current package, replace the existing binary, then run:
+Replace the binary, then check the installation:
 
-```text
+```sh
+rayomd --version
 rayomd --doctor
-rayomd --export notes.md notes.pdf
+rayomd --export notes.md notes.pdf --page-numbers
 ```
 
-See the project documentation for the complete compatibility matrix.
+The complete list of supported Markdown is in the [documentation](https://github.com/Butterski/rayomd/wiki/Native-Markdown-Support).

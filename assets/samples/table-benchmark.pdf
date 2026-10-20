@@ -4,73 +4,118 @@
 << /Type /Pages /Kids [6 0 R ] /Count 1 >>
 endobj
 2 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<<  /Length 4111 >>
+<<  /Length 7208 >>
 stream
-q 0.02 0.02 0.02 rg BT /F2 26 Tf 1 0 0 1 34 782 Tm (Batch benchmark) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 754.4 Tm (Deterministic native conversion sample.) Tj ET Q
-q 0.91 0.93 0.95 rg 34 720.05 527 22.67 re f Q
-q 0.72 0.72 0.72 RG 0.45 w 34 720.05 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 39 728.13 Tm (Workload) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 720.05 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 266.58 728.13 Tm (Input) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 720.05 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 395.93 728.13 Tm (Median) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 720.05 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 434.25 728.13 Tm (Result) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 34 697.38 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 705.45 Tm (Tiny README) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 697.38 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 267.73 705.45 Tm (205 B) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 697.38 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 385.18 705.45 Tm (15.45 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 697.38 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 434.25 705.45 Tm (Pass) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 34 674.71 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 682.78 Tm (Feature mix) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 674.71 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 259.38 682.78 Tm (15.1 KB) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 674.71 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 385.18 682.78 Tm (17.29 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 674.71 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 434.25 682.78 Tm (Pass) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 34 652.04 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 660.11 Tm (500-row table) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 652.04 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 259.38 660.11 Tm (33.4 KB) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 652.04 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 385.18 660.11 Tm (18.66 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 652.04 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 434.25 660.11 Tm (Pass) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 34 629.36 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 637.44 Tm (Unicode report) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 629.36 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 259.38 637.44 Tm (28.7 KB) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 629.36 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 385.18 637.44 Tm (21.12 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 629.36 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 434.25 637.44 Tm (Pass) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 34 606.69 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 614.76 Tm (Batch corpus) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 165.75 606.69 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 253.91 614.76 Tm (100 files) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 297.5 606.69 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 370.78 614.76 Tm (1.44 ms/file) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 429.25 606.69 131.75 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 434.25 614.76 Tm (Pass) Tj ET Q
-q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 34 563.69 Tm (Method) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 537.49 Tm (Fresh-process timings include startup, parsing, PDF generation, and output-file writing. Results are scoped) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 523.32 Tm (to the supported native subset and are not a claim of visual equivalence with browser or TeX renderers.) Tj ET Q
-q 0.68 0.68 0.68 RG 0.8 w 34 509.64 m 561 509.64 l S Q
-q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 486.14 Tm (Always reproduce performance claims on the target system and workload.) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 26 Tf 1 0 0 1 34 782 Tm (Markdown to PDF, against other tools) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 754.4 Tm (Each tool converts the same document,) Tj ET Q
+q 0.94 0.94 0.92 rg 223.22 751.73 59.7 14.18 re f Q
+q 0.18 0.18 0.17 rg BT /F3 10.5 Tf 1 0 0 1 218.42 754.4 Tm ( tester.md) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 281.42 754.4 Tm ( without images, as a fresh process: median of 20 on four) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 740.23 Tm (pinned cores, measured on 2026-10-20.) Tj ET Q
+q 0.91 0.93 0.95 rg 34 705.88 527 22.67 re f Q
+q 0.72 0.72 0.72 RG 0.45 w 34 705.88 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 39 713.95 Tm (Tool) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 705.88 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 144.4 713.95 Tm (Version) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 705.88 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 322.79 713.95 Tm (Time) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 705.88 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 374.33 713.95 Tm (Against RayoMD) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 705.88 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 493.57 713.95 Tm (Peak memory) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 683.21 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 39 691.28 Tm (RayoMD) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 683.21 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 691.28 Tm (5.2.5) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 683.21 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 309.98 691.28 Tm (1.34 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 683.21 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 440.46 691.28 Tm (1x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 683.21 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 522.39 691.28 Tm (3.4 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 660.53 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 668.61 Tm (glu) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 660.53 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 668.61 Tm (0.0.46) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 660.53 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 319.06 668.61 Tm (55 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 660.53 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 435.12 668.61 Tm (41x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 660.53 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 526.12 668.61 Tm (33 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 625.19 105.4 35.34 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 645.93 Tm (Qt 6) Tj ET Q
+q 0.94 0.94 0.92 rg 37.5 631.19 77.88 12.67 re f Q
+q 0.18 0.18 0.17 rg BT /F3 9.6 Tf 1 0 0 1 39 633.26 Tm (QTextDocument) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 625.19 105.4 35.34 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 645.93 Tm (6.12.0) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 625.19 105.4 35.34 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 319.06 645.93 Tm (71 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 625.19 105.4 35.34 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 435.12 645.93 Tm (53x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 625.19 105.4 35.34 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 526.12 645.93 Tm (39 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 602.52 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 610.59 Tm (Pandoc + Typst) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 602.52 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 610.59 Tm (3.11, Typst 0.15.1) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 602.52 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 313.72 610.59 Tm (357 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 602.52 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 429.79 610.59 Tm (266x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 602.52 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 520.79 610.59 Tm (239 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 579.85 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 587.92 Tm (Pandoc + WeasyPrint) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 579.85 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 587.92 Tm (3.11, 70.0) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 579.85 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 313.72 587.92 Tm (987 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 579.85 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 429.79 587.92 Tm (737x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 579.85 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 520.79 587.92 Tm (241 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 557.17 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 565.25 Tm (md-to-pdf) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 557.17 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 565.25 Tm (5.2.5, Chromium 154) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 557.17 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 305.72 565.25 Tm (1,821 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 557.17 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 421.78 565.25 Tm (1,359x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 557.17 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 520.79 565.25 Tm (205 MiB) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 34 534.5 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 39 542.57 Tm (Pandoc + XeLaTeX) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 139.4 534.5 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 144.4 542.57 Tm (3.11, TeX Live 2026) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 244.8 534.5 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 305.72 542.57 Tm (2,147 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 350.2 534.5 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 421.78 542.57 Tm (1,602x) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 455.6 534.5 105.4 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 520.79 542.57 Tm (340 MiB) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 34 491.5 Tm (Method) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 465.3 Tm (AMD Ryzen 5 PRO 4650GE, Arch Linux container without network. Times run from start to exit. In a running) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 451.13 Tm (process \() Tj ET Q
+q 0.94 0.94 0.92 rg 75.68 448.45 47.1 14.18 re f Q
+q 0.18 0.18 0.17 rg BT /F3 10.5 Tf 1 0 0 1 77.18 451.13 Tm (--serve) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 121.28 451.13 Tm (,) Tj ET Q
+q 0.94 0.94 0.92 rg 129 448.45 47.1 14.18 re f Q
+q 0.18 0.18 0.17 rg BT /F3 10.5 Tf 1 0 0 1 124.2 451.13 Tm ( --batch) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 174.6 451.13 Tm (\) each further export takes 0.16 ms.) Tj ET Q
+q 0.68 0.68 0.68 RG 0.8 w 34 437.45 m 561 437.45 l S Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 413.95 Tm (The tools render different Markdown subsets and look different: this compares time to a finished PDF, not) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 10.5 Tf 1 0 0 1 34 399.78 Tm (identical output.) Tj ET Q
 
 endstream
 endobj
@@ -78,24 +123,36 @@ endobj
 << /Type /Page /Parent 1 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 2 0 R /F2 3 0 R /F3 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
-<< /Type /Catalog /Pages 1 0 R >>
+<< /Type /Outlines /First 8 0 R /Last 8 0 R /Count 2 >>
 endobj
 8 0 obj
-<< /Producer (RayoMD Native Standard PDF) /Creator (RayoMD) /Title (Markdown Export) >>
+<< /Title (Markdown to PDF, against other tools) /Parent 7 0 R /First 9 0 R /Last 9 0 R /Count 1 /Dest [6 0 R /XYZ null 812 null] >>
+endobj
+9 0 obj
+<< /Title (Method) /Parent 8 0 R /Dest [6 0 R /XYZ null 517.5 null] >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 1 0 R /Outlines 7 0 R >>
+endobj
+11 0 obj
+<< /Producer (RayoMD Native Standard PDF) /Creator (RayoMD) /Title (Markdown to PDF, against other tools) >>
 endobj
 xref
-0 9
+0 12
 0000000000 65535 f 
 0000000015 00000 n 
 0000000073 00000 n 
-0000000143 00000 n 
-0000000218 00000 n 
-0000000286 00000 n 
-0000004450 00000 n 
-0000004596 00000 n 
-0000004645 00000 n 
+0000000170 00000 n 
+0000000272 00000 n 
+0000000367 00000 n 
+0000007628 00000 n 
+0000007774 00000 n 
+0000007845 00000 n 
+0000007993 00000 n 
+0000008079 00000 n 
+0000008145 00000 n 
 trailer
-<< /Size 9 /Root 7 0 R /Info 8 0 R >>
+<< /Size 12 /Root 10 0 R /Info 11 0 R >>
 startxref
-4748
+8270
 %%EOF

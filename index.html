@@ -5,31 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0d12">
   <meta name="color-scheme" content="dark light">
-  <meta name="description" content="RayoMD is a tiny native Markdown-to-PDF converter for Windows and Linux. Generate PDFs without Chromium, Pandoc, LaTeX, or a bundled runtime on the native path.">
-  <meta name="keywords" content="Markdown to PDF, Markdown PDF converter, native PDF generator, C++ PDF, Markdown CLI, browserless PDF, offline Markdown converter">
+  <meta name="description" content="RayoMD turns Markdown into PDF in milliseconds: a small command-line tool for Linux and Windows and a desktop app that shows the real PDF as you type. No browser, LaTeX, Pandoc, or runtime.">
+  <meta name="keywords" content="Markdown to PDF, Markdown PDF converter, Markdown editor with PDF preview, native PDF generator, C++ PDF, Markdown CLI, browserless PDF, offline Markdown converter, Omarchy">
   <meta name="author" content="RayoMD contributors">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="__SITE_URL__/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RayoMD">
-  <meta property="og:title" content="RayoMD - Native Markdown to PDF without a browser">
-  <meta property="og:description" content="A compact open-source Markdown-to-PDF converter for CI artifacts, batch reports, local apps, and predictable deployment.">
+  <meta property="og:title" content="RayoMD - Markdown to PDF in milliseconds">
+  <meta property="og:description" content="A small open-source Markdown-to-PDF converter and a desktop app with a live PDF preview. No browser, LaTeX, Pandoc, or runtime.">
   <meta property="og:url" content="__SITE_URL__/">
-  <meta property="og:image" content="__SITE_URL__/assets/images/ui.png">
-  <meta property="og:image:width" content="1086">
-  <meta property="og:image:height" content="753">
-  <meta property="og:image:alt" content="RayoMD Windows application with Markdown editor and PDF export settings">
+  <meta property="og:image" content="__SITE_URL__/assets/images/rayomd-gui.png">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1000">
+  <meta property="og:image:alt" content="RayoMD GUI: Markdown with syntax colours on the left, the PDF with a formula, a diagram and highlighted code on the right">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="RayoMD - Native Markdown to PDF">
-  <meta name="twitter:description" content="Generate PDFs from Markdown without starting a browser or bundling a document runtime.">
-  <meta name="twitter:image" content="__SITE_URL__/assets/images/ui.png">
+  <meta name="twitter:title" content="RayoMD - Markdown to PDF in milliseconds">
+  <meta name="twitter:description" content="Markdown to PDF without a browser: a 727 KB command-line tool and a desktop app that previews the real PDF as you type.">
+  <meta name="twitter:image" content="__SITE_URL__/assets/images/rayomd-gui.png">
 
-  <title>RayoMD - Native Markdown to PDF Converter for Windows and Linux</title>
+  <title>RayoMD - Markdown to PDF in Milliseconds, CLI and Desktop App</title>
   <link rel="icon" href="./assets/images/rayomd.ico" sizes="any">
   <link rel="apple-touch-icon" href="./assets/images/rayomd.png">
   <link rel="manifest" href="./site.webmanifest">
-  <link rel="preload" href="./assets/images/ui.png" as="image" fetchpriority="high">
+  <link rel="preload" href="./assets/images/rayomd-gui.png" as="image" fetchpriority="high">
   <link rel="stylesheet" href="./assets/css/styles.css">
 
   <script type="application/ld+json">
@@ -41,7 +41,7 @@
         "@id": "__SITE_URL__/#website",
         "url": "__SITE_URL__/",
         "name": "RayoMD",
-        "description": "Official website for the RayoMD native Markdown-to-PDF converter.",
+        "description": "Official website for RayoMD, the native Markdown-to-PDF converter, and RayoMD GUI, its desktop app.",
         "inLanguage": "en"
       },
       {
@@ -49,21 +49,22 @@
         "@id": "__SITE_URL__/#software",
         "name": "RayoMD",
         "url": "__SITE_URL__/",
-        "downloadUrl": "https://github.com/Butterski/rayomd/releases",
-        "softwareVersion": "2.3.0",
+        "downloadUrl": "https://github.com/Butterski/rayomd/releases/latest",
+        "softwareVersion": "5.2.5",
         "applicationCategory": "DeveloperApplication",
         "applicationSubCategory": "Markdown to PDF converter",
         "operatingSystem": "Windows, Linux",
         "isAccessibleForFree": true,
         "license": "https://www.apache.org/licenses/LICENSE-2.0",
         "codeRepository": "https://github.com/Butterski/rayomd",
-        "description": "A compact native Markdown-to-PDF converter written in C++17 with a Windows application and cross-platform CLI.",
+        "description": "A small native Markdown-to-PDF converter written in C++17: a command-line tool for Linux and Windows and a C++ library.",
         "featureList": [
-          "Native Markdown-to-PDF generation",
-          "Windows desktop application and CLI",
-          "Linux CLI",
-          "Batch and warm serve modes",
-          "Unicode, links, tables, code blocks, and images",
+          "Native Markdown-to-PDF generation without a browser, LaTeX, or Pandoc",
+          "TeX math typeset natively",
+          "Code highlighting in 29 languages and Mermaid diagrams",
+          "Tables of contents, footnotes, themes, and books",
+          "PDF/A-3b and tagged PDF/UA-1",
+          "Batch, stdin, and warm serve modes",
           "Optional exact Markdown source recovery"
         ],
         "offers": {
@@ -76,6 +77,33 @@
           "@type": "Organization",
           "name": "RayoMD contributors",
           "url": "https://github.com/Butterski/rayomd"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "__SITE_URL__/#desktop",
+        "name": "RayoMD GUI",
+        "url": "__SITE_URL__/#desktop",
+        "downloadUrl": "https://github.com/Butterski/rayomd-gui/releases/latest",
+        "softwareVersion": "1.4.0",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Markdown editor with PDF preview",
+        "operatingSystem": "Linux (Wayland), Windows",
+        "isAccessibleForFree": true,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "codeRepository": "https://github.com/Butterski/rayomd-gui",
+        "description": "A native desktop app that shows the PDF RayoMD builds as you type the Markdown.",
+        "featureList": [
+          "Live preview of the real PDF",
+          "Markdown syntax colours",
+          "Follows the Omarchy theme",
+          "Every RayoMD export option"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
         }
       }
     ]
@@ -97,6 +125,7 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav hidden>
         <a href="#examples">Examples</a>
+        <a href="#desktop">Desktop app</a>
         <a href="#performance">Performance</a>
         <a href="https://github.com/Butterski/rayomd/wiki">Docs</a>
         <a href="https://github.com/Butterski/rayomd">GitHub</a>
@@ -109,13 +138,13 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="eyebrow">Open source · Apache-2.0 · v2.3.0</p>
+        <p class="eyebrow">Open source · Apache-2.0 · RayoMD 5.2.5 · GUI 1.4.0</p>
         <h1 id="hero-title">RayoMD</h1>
-        <p class="hero-lede">Markdown to PDF without a browser.</p>
-        <p class="hero-copy">A compact native converter for CI artifacts, batch reports, and applications where startup time, memory, and deployment size matter.</p>
+        <p class="hero-lede">Markdown to PDF in milliseconds.</p>
+        <p class="hero-copy">A single small executable for Linux and Windows, and a desktop app that shows the real PDF as you type. No browser, no LaTeX, no Pandoc, no runtime.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://github.com/Butterski/rayomd/releases">Download open source</a>
-          <a class="button button-secondary" href="./api/">Request API beta</a>
+          <a class="button button-primary" href="https://github.com/Butterski/rayomd/releases/latest">Download the CLI</a>
+          <a class="button button-secondary" href="#desktop">Get the desktop app</a>
         </div>
         <div class="command-line command-line-hero">
           <code>rayomd --export report.md report.pdf</code>
@@ -128,23 +157,23 @@
     <section class="proof-strip" id="proof" aria-label="RayoMD at a glance">
       <div class="proof-grid">
         <div class="proof-item">
-          <strong>367 KB</strong>
-          <span>Linux v2.3.0 binary</span>
+          <strong>1.34 ms</strong>
+          <span>A document, start to exit</span>
         </div>
         <div class="proof-item">
-          <strong>~8 MiB</strong>
-          <span>Measured serve peak RSS</span>
+          <strong>0.16 ms</strong>
+          <span>Each export in a running process</span>
         </div>
         <div class="proof-item">
-          <strong>0</strong>
-          <span>Browser processes required</span>
+          <strong>727 KB</strong>
+          <span>Linux download, 852 KB Windows</span>
         </div>
         <div class="proof-item">
-          <strong>2 platforms</strong>
-          <span>Windows and Linux releases</span>
+          <strong>3.4 MiB</strong>
+          <span>Peak memory of an export</span>
         </div>
       </div>
-      <p class="proof-note">Dated release measurements vary by platform and workload. <a href="https://github.com/Butterski/rayomd/wiki/Benchmarks">Review the methodology.</a></p>
+      <p class="proof-note">RayoMD 5.2.5 on <code>tester.md</code>, AMD Ryzen 5 PRO 4650GE, measured on 2026-10-20. <a href="#performance">Against other tools</a></p>
     </section>
 
     <section class="section section-dark pipeline-section" aria-labelledby="pipeline-title">
@@ -152,7 +181,7 @@
         <div class="section-heading">
           <p class="eyebrow">The native path</p>
           <h2 id="pipeline-title">Ship PDFs, not Chromium.</h2>
-          <p>RayoMD parses Markdown and writes PDF bytes directly from C++17. The default path does not start a browser, bundle a runtime, or require Pandoc or LaTeX.</p>
+          <p>RayoMD parses Markdown and writes PDF bytes directly, in its own C++17 code. It typesets formulas, colours code and draws diagrams itself: nothing starts a browser, a TeX installation, or Pandoc.</p>
         </div>
         <div class="pipeline" aria-label="Markdown conversion pipeline">
           <div class="pipeline-step">
@@ -174,10 +203,11 @@
           </div>
         </div>
         <ul class="inline-facts" aria-label="Native renderer properties">
-          <li>No headless browser</li>
-          <li>No required JavaScript runtime</li>
-          <li>No required TeX installation</li>
-          <li>Bounded batch workers</li>
+          <li>TeX math typeset natively</li>
+          <li>Code coloured in 29 languages</li>
+          <li>Mermaid diagrams drawn as vectors</li>
+          <li>PDF/A-3b and PDF/UA-1</li>
+          <li>Linux binary needs only libc</li>
         </ul>
       </div>
     </section>
@@ -189,33 +219,57 @@
             <p class="eyebrow">Real output</p>
             <h2 id="examples-title">Inspect what the engine produces.</h2>
           </div>
-          <p>Every preview below comes from the current RayoMD executable. Open the Markdown, the generated PDF, and the exact command used.</p>
+          <p>Every preview below was exported by RayoMD 5.2.5. Open the Markdown, the generated PDF, and the exact command used.</p>
         </div>
 
         <div class="sample-browser">
           <div class="sample-tabs" role="tablist" aria-label="Output examples">
-            <button type="button" role="tab" aria-selected="true" data-sample="report">Operations report</button>
+            <button type="button" role="tab" aria-selected="true" data-sample="note">Technical note</button>
+            <button type="button" role="tab" aria-selected="false" data-sample="report">Operations report</button>
             <button type="button" role="tab" aria-selected="false" data-sample="release">Release notes</button>
             <button type="button" role="tab" aria-selected="false" data-sample="table">Benchmark table</button>
           </div>
           <div class="sample-layout">
             <figure class="pdf-preview">
-              <img src="./assets/samples/operations-report.png" width="992" height="1404" alt="First page of the Operations report PDF generated by RayoMD" data-sample-image>
+              <img src="./assets/samples/technical-note.png" width="992" height="1404" alt="First page of the Technical note PDF generated by RayoMD" data-sample-image>
             </figure>
             <div class="sample-details" aria-live="polite">
               <p class="eyebrow">Generated sample</p>
-              <h3 data-sample-title>Operations report</h3>
-              <p data-sample-detail>A compact generated report with a table, ordered list, quote, and inline emphasis.</p>
+              <h3 data-sample-title>Technical note</h3>
+              <p data-sample-detail>Typeset formulas, a Mermaid flowchart, Python coloured as on GitHub, a task list, and a footnote.</p>
               <div class="sample-links">
-                <a class="button button-dark" href="./assets/samples/operations-report.pdf" data-sample-pdf>Open PDF</a>
-                <a class="text-link" href="./assets/samples/operations-report.md" data-sample-markdown>View Markdown</a>
+                <a class="button button-dark" href="./assets/samples/technical-note.pdf" data-sample-pdf>Open PDF</a>
+                <a class="text-link" href="./assets/samples/technical-note.md" data-sample-markdown>View Markdown</a>
               </div>
               <div class="sample-command">
                 <span>Command</span>
-                <code data-sample-command>rayomd --export operations-report.md operations-report.pdf native elegant normal</code>
+                <code data-sample-command>rayomd --export technical-note.md technical-note.pdf native modern normal</code>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-demo" id="desktop" aria-labelledby="desktop-title">
+      <div class="section-inner">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">RayoMD GUI 1.4.0</p>
+            <h2 id="desktop-title">Write Markdown. See the real PDF.</h2>
+          </div>
+          <p>The desktop app draws the PDF RayoMD just built, with its own renderer, as you type: not an imitation of it. The Markdown shows in your theme's colours; on Omarchy the app follows the theme as it changes.</p>
+        </div>
+        <img class="product-shot" src="./assets/images/rayomd-gui.png" width="1600" height="1000" loading="lazy" alt="RayoMD GUI: the Markdown of a technical note with syntax colours on the left, its PDF with a formula, a flowchart and highlighted code on the right">
+        <ul class="desktop-facts" aria-label="RayoMD GUI properties">
+          <li><strong>About 2 ms</strong><span>from a keystroke to the edited page's preview in <code>tester.md</code></span></li>
+          <li><strong>The real PDF</strong><span>0.5/255 from poppler's rendering, on average over 51 test pages</span></li>
+          <li><strong>Every export option</strong><span>styles, page sizes, PDF themes, contents, Obsidian notes, PDF/A and PDF/UA</span></li>
+          <li><strong>Native and small</strong><span>a 1.6 MB Linux download needing only libc, 2.0 MB for Windows</span></li>
+        </ul>
+        <div class="desktop-actions">
+          <a class="button button-dark" href="https://github.com/Butterski/rayomd-gui/releases/latest">Download RayoMD GUI</a>
+          <a class="text-link" href="https://github.com/Butterski/rayomd-gui">Source and install guide</a>
         </div>
       </div>
     </section>
@@ -231,56 +285,34 @@
             <span class="workload-number">01</span>
             <div>
               <h3>CI documentation</h3>
-              <p>Turn release notes, manuals, and repository Markdown into reproducible build artifacts.</p>
-              <code>rayomd --export CHANGELOG.md release.pdf</code>
+              <p>Turn release notes, manuals, and whole folders of repository Markdown into reproducible build artifacts, on up to 64 threads.</p>
+              <code>rayomd --batch docs pdf-out --recursive --skip-unchanged</code>
             </div>
           </article>
           <article class="workload">
             <span class="workload-number">02</span>
             <div>
               <h3>Generated reports</h3>
-              <p>Convert structured Markdown from backend jobs or AI pipelines without maintaining a browser pool.</p>
+              <p>Convert Markdown from backend jobs or AI pipelines without maintaining a browser pool. A running process exports each further document in 0.16 ms.</p>
               <code>cat report.md | rayomd --stdin report.pdf</code>
             </div>
           </article>
           <article class="workload">
             <span class="workload-number">03</span>
             <div>
+              <h3>Books and notes</h3>
+              <p>One PDF from an mdBook or GitBook <code>SUMMARY.md</code>, a folder, or an Obsidian note and the notes it links to, with one table of contents.</p>
+              <code>rayomd --book SUMMARY.md book.pdf --toc --page-numbers</code>
+            </div>
+          </article>
+          <article class="workload">
+            <span class="workload-number">04</span>
+            <div>
               <h3>Local and embedded tools</h3>
-              <p>Keep conversion offline and package the public C++ exporter inside a focused native application.</p>
+              <p>Keep conversion offline and link the C++ exporter into your own application, as RayoMD GUI does.</p>
               <code>#include "rayomd/tiny_pdf.h"</code>
             </div>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-paper batch-section" aria-labelledby="batch-title">
-      <div class="section-inner">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Bounded parallel batch</p>
-            <h2 id="batch-title">More throughput, with the memory cost shown.</h2>
-          </div>
-          <p>RayoMD caps worker counts by workload size. In the v2.2.0 audit, six workers produced byte-identical PDFs across 160-file folder batches with zero failures.</p>
-        </div>
-        <div class="batch-grid">
-          <article class="batch-platform">
-            <div class="batch-platform-head"><span>Windows 11</span><strong>2.7x</strong></div>
-            <p class="batch-metric"><span>1 worker</span><strong>7.303 ms/file</strong></p>
-            <p class="batch-metric"><span>6 workers</span><strong>2.699 ms/file</strong></p>
-            <p class="batch-memory">Peak RSS: 19.23 MB to 33.33 MB</p>
-          </article>
-          <article class="batch-platform">
-            <div class="batch-platform-head"><span>Linux, native ext4</span><strong>4.5x</strong></div>
-            <p class="batch-metric"><span>1 worker</span><strong>5.582 ms/file</strong></p>
-            <p class="batch-metric"><span>6 workers</span><strong>1.235 ms/file</strong></p>
-            <p class="batch-memory">Peak RSS: 13.93 MB to 47.59 MB</p>
-          </article>
-        </div>
-        <div class="batch-footer">
-          <p>Folder-batch medians, five rounds, measured July 13, 2026. Throughput improved by spending bounded memory; results are not hosted API latency.</p>
-          <a class="text-link" href="https://github.com/Butterski/rayomd/wiki/RayoMD-2.2.0-Optimization-Audit-2026-07-13">Read the optimization audit</a>
         </div>
       </div>
     </section>
@@ -292,30 +324,30 @@
             <p class="eyebrow">Deliberate scope</p>
             <h2 id="scope-title">Fast because the job is smaller.</h2>
           </div>
-          <p>RayoMD is a native Markdown subset, not a replacement for every document engine. The boundary is part of the product.</p>
+          <p>RayoMD renders a Markdown subset, not every document format. Unsupported input degrades to readable output instead of failing the export.</p>
         </div>
         <div class="scope-grid">
           <div class="scope-column scope-good">
             <h3>Use native RayoMD for</h3>
             <ul>
-              <li>Headings, paragraphs, and emphasis</li>
-              <li>Nested lists and block quotes</li>
-              <li>Pipe tables and fenced code blocks</li>
-              <li>Clickable Markdown links</li>
-              <li>Unicode and standalone images</li>
-              <li>Explicit page breaks and useful image fallbacks</li>
-              <li>Batch, stdin, and warm serve workflows</li>
+              <li>GitHub-style Markdown: tables, task lists, footnotes, alerts</li>
+              <li>TeX math, typeset in embedded fonts</li>
+              <li>Code in 29 languages and Mermaid flowcharts, sequence and pie charts</li>
+              <li>PNG, JPEG, and SVG images</li>
+              <li>Tables of contents, themes, headers, footers, and covers</li>
+              <li>Books, Obsidian vaults, and batch folders</li>
+              <li>PDF/A-3b archives and tagged PDF/UA-1</li>
             </ul>
           </div>
           <div class="scope-column scope-other">
             <h3>Use a broader engine for</h3>
             <ul>
-              <li>Full HTML and CSS fidelity</li>
+              <li>HTML and CSS layout</li>
               <li>JavaScript-rendered pages</li>
-              <li>TeX math and scientific publishing</li>
-              <li>Citations and bibliographies</li>
-              <li>Syntax highlighting and filters</li>
-              <li>Pixel-specific branded templates</li>
+              <li>Complete LaTeX: packages, macros, numbering</li>
+              <li>Citations, bibliographies, and filters</li>
+              <li>Right-to-left scripts</li>
+              <li>Mermaid beyond flowcharts, sequence diagrams, and pie charts</li>
             </ul>
           </div>
         </div>
@@ -330,24 +362,28 @@
             <p class="eyebrow">Dated and reproducible</p>
             <h2 id="performance-title">Performance with the caveats attached.</h2>
           </div>
-          <p>Fresh-process Windows 11 measurements include startup, parsing, PDF generation, and file output. Compared tools provide broader feature sets.</p>
+          <p>Each tool converts the same document, <code>tester.md</code> without images, as a fresh process: start, parse, layout, write, exit. The other tools render more, and render it differently.</p>
         </div>
         <div class="benchmark-table-wrap">
           <table class="benchmark-table">
-            <caption>RayoMD 2.2.0 Windows comparison, measured July 13, 2026</caption>
+            <caption>RayoMD 5.2.5 against other Markdown-to-PDF tools on Linux, measured on 2026-10-20</caption>
             <thead>
-              <tr><th scope="col">Workload</th><th scope="col">RayoMD</th><th scope="col">md-to-pdf</th><th scope="col">Pandoc + XeLaTeX</th><th scope="col">Next / RayoMD</th></tr>
+              <tr><th scope="col">Tool</th><th scope="col">Version</th><th scope="col">Time</th><th scope="col">Against RayoMD</th><th scope="col">Peak memory</th></tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Tiny README</th><td class="best">15.45 ms</td><td>1,717.89 ms</td><td>3,210.69 ms</td><td>111.2x</td></tr>
-              <tr><th scope="row">Feature mix</th><td class="best">17.29 ms</td><td>2,281.90 ms</td><td>3,377.94 ms</td><td>132.0x</td></tr>
-              <tr><th scope="row">500-row table</th><td class="best">18.66 ms</td><td>2,340.90 ms</td><td>3,427.50 ms</td><td>125.5x</td></tr>
+              <tr><th scope="row">RayoMD</th><td>5.2.5</td><td class="best">1.34 ms</td><td>1x</td><td class="best">3.4 MiB</td></tr>
+              <tr><th scope="row">glu</th><td>0.0.46</td><td>55 ms</td><td>41x</td><td>33 MiB</td></tr>
+              <tr><th scope="row">Qt 6 QTextDocument</th><td>6.12.0</td><td>71 ms</td><td>53x</td><td>39 MiB</td></tr>
+              <tr><th scope="row">Pandoc + Typst</th><td>3.11, Typst 0.15.1</td><td>357 ms</td><td>266x</td><td>239 MiB</td></tr>
+              <tr><th scope="row">Pandoc + WeasyPrint</th><td>3.11, 70.0</td><td>987 ms</td><td>737x</td><td>241 MiB</td></tr>
+              <tr><th scope="row">md-to-pdf</th><td>5.2.5, Chromium 154</td><td>1,821 ms</td><td>1,359x</td><td>205 MiB</td></tr>
+              <tr><th scope="row">Pandoc + XeLaTeX</th><td>3.11, TeX Live 2026</td><td>2,147 ms</td><td>1,602x</td><td>340 MiB</td></tr>
             </tbody>
           </table>
         </div>
         <div class="benchmark-footer">
-          <p>Seven measured runs after warm-up on a Ryzen 5 5600X. This is a scoped native-subset comparison, not a claim of feature or visual equivalence. Hosted API latency has not been measured.</p>
-          <a class="button button-secondary" href="https://github.com/Butterski/rayomd/wiki/Markdown-to-PDF-Speed-Comparison-2026-07-13">Read the full benchmark</a>
+          <p>Median of 20 runs on four pinned cores of an AMD Ryzen 5 PRO 4650GE, in an Arch Linux container without network. Peak memory is each tool's largest process. This compares time to a finished PDF, not identical output.</p>
+          <a class="button button-secondary" href="https://github.com/Butterski/rayomd/wiki/Markdown-to-PDF-Comparison-2026-10-20">Read the full comparison</a>
         </div>
       </div>
     </section>
@@ -357,7 +393,7 @@
         <div>
           <p class="eyebrow">Optional reversible profile</p>
           <h2 id="reversible-title">Exact source in. Exact source out.</h2>
-          <p>RayoMD can embed the original UTF-8 Markdown in its PDF 2.0 <code>rayomd-source/1</code> profile, validate length and SHA-256 integrity, and recover it byte for byte later.</p>
+          <p>RayoMD can attach the original UTF-8 Markdown to its PDF in the <code>rayomd-source/1</code> profile, check its length and SHA-256 integrity, and recover it byte for byte later.</p>
           <div class="command-stack">
             <code>rayomd --export report.md archive.pdf --embed-source</code>
             <code>rayomd --inspect-source archive.pdf</code>
@@ -372,22 +408,6 @@
       </div>
     </section>
 
-    <section class="section section-demo" aria-labelledby="demo-title">
-      <div class="section-inner">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Windows utility</p>
-            <h2 id="demo-title">Edit, import, and export without ceremony.</h2>
-          </div>
-          <p>The Windows build combines the native exporter with a compact Dear ImGui interface. Linux keeps the same exporter in a small CLI.</p>
-        </div>
-        <video class="product-video" controls preload="none" poster="./assets/images/ui.png" width="1086" height="753">
-          <source src="./assets/video/show.mp4" type="video/mp4">
-          <a href="./assets/video/show.mp4">Open the RayoMD application demo video</a>
-        </video>
-      </div>
-    </section>
-
     <section class="section route-section" aria-labelledby="route-title">
       <div class="section-inner">
         <div class="section-heading route-heading">
@@ -398,9 +418,9 @@
           <div class="route-path route-local">
             <span>Open source</span>
             <h3>Own the binary.</h3>
-            <p>Download the Windows app or Linux CLI, embed the C++ API, or build from Apache-2.0 source. Default Linux stays libcurl-free; a separate curl build enables URL images.</p>
+            <p>Download the command-line tool for Linux or Windows, the desktop app, or link the C++ exporter into your own program, all under Apache-2.0. The default Linux build needs only libc; a curl build fetches URL images.</p>
             <div class="route-actions">
-              <a class="button button-dark" href="https://github.com/Butterski/rayomd/releases">Download v2.3.0+</a>
+              <a class="button button-dark" href="https://github.com/Butterski/rayomd/releases/latest">Download RayoMD 5.2.5</a>
               <a class="text-link" href="https://github.com/Butterski/rayomd/wiki/Getting-Started">Getting started</a>
             </div>
           </div>
@@ -422,10 +442,10 @@
     <div class="footer-main">
       <div class="footer-brand">
         <img src="./assets/images/rayomd.png" width="64" height="64" alt="">
-        <div><strong>RayoMD</strong><span>Native Markdown to PDF.</span></div>
+        <div><strong>RayoMD</strong><span>Markdown to PDF in milliseconds.</span></div>
       </div>
       <div class="footer-links">
-        <div><strong>Product</strong><a href="https://github.com/Butterski/rayomd/releases">Downloads</a><a href="./api/">API beta</a><a href="#examples">Examples</a></div>
+        <div><strong>Product</strong><a href="https://github.com/Butterski/rayomd/releases/latest">Downloads</a><a href="https://github.com/Butterski/rayomd-gui">Desktop app</a><a href="./api/">API beta</a><a href="#examples">Examples</a></div>
         <div><strong>Resources</strong><a href="https://github.com/Butterski/rayomd/wiki">Documentation</a><a href="https://github.com/Butterski/rayomd/wiki/Benchmarks">Benchmarks</a><a href="https://github.com/Butterski/rayomd">Source</a></div>
         <div><strong>Project</strong><a href="https://github.com/Butterski/rayomd/issues">Issues</a><a href="https://github.com/Butterski/rayomd/blob/master/LICENSE">Apache-2.0</a><a href="./privacy/">Privacy</a></div>
       </div>

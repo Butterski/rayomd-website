@@ -26,6 +26,14 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
 });
 
 const samples = {
+  note: {
+    title: "Technical note",
+    detail: "Typeset formulas, a Mermaid flowchart, Python coloured as on GitHub, a task list, and a footnote.",
+    image: "assets/samples/technical-note.png",
+    markdown: "assets/samples/technical-note.md",
+    pdf: "assets/samples/technical-note.pdf",
+    command: "rayomd --export technical-note.md technical-note.pdf native modern normal"
+  },
   report: {
     title: "Operations report",
     detail: "A compact generated report with a table, ordered list, quote, and inline emphasis.",
@@ -36,7 +44,7 @@ const samples = {
   },
   release: {
     title: "Release notes",
-    detail: "A developer-facing document with headings, lists, links, and a fenced command block.",
+    detail: "A developer-facing document with headings, lists, inline code, a link, and a command block.",
     image: "assets/samples/release-notes.png",
     markdown: "assets/samples/release-notes.md",
     pdf: "assets/samples/release-notes.pdf",
@@ -44,7 +52,7 @@ const samples = {
   },
   table: {
     title: "Benchmark table",
-    detail: "A table-heavy technical export that makes alignment and scope caveats easy to inspect.",
+    detail: "A table-heavy technical export: the comparison of 2026-10-20 with its method and caveat.",
     image: "assets/samples/table-benchmark.png",
     markdown: "assets/samples/table-benchmark.md",
     pdf: "assets/samples/table-benchmark.pdf",

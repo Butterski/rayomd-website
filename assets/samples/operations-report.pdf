@@ -4,54 +4,57 @@
 << /Type /Pages /Kids [6 0 R ] /Count 1 >>
 endobj
 2 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<<  /Length 2843 >>
+<<  /Length 3046 >>
 stream
 q 0.02 0.02 0.02 rg BT /F2 26 Tf 1 0 0 1 54 762 Tm (Operations report) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 733.4 Tm (Period: July 2026 Status: On track) Tj ET Q
-q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 690.38 Tm (Summary) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 663.18 Tm (The release pipeline completed all scheduled exports. Native generation stayed within the) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 647.65 Tm (expected memory envelope and every PDF passed structural verification.) Tj ET Q
-q 0.91 0.93 0.95 rg 54 612.95 487 22.67 re f Q
-q 0.72 0.72 0.72 RG 0.45 w 54 612.95 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 59 621.03 Tm (Metric) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 216.33 612.95 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 345.35 621.03 Tm (Result) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 378.67 612.95 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 505.09 621.03 Tm (Target) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 54 590.28 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 598.35 Tm (Documents) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 216.33 590.28 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 344.39 598.35 Tm (12,480) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 378.67 590.28 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 506.72 598.35 Tm (10,000) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 54 567.61 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 575.68 Tm (Median render) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 216.33 567.61 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 339.97 575.68 Tm (18.4 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 378.67 567.61 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 502.4 575.68 Tm (< 25 ms) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 54 544.94 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 553.01 Tm (Failed exports) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 216.33 544.94 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 368.29 553.01 Tm (0) Tj ET Q
-q 0.72 0.72 0.72 RG 0.45 w 378.67 544.94 162.33 22.67 re S Q
-q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 530.62 553.01 Tm (0) Tj ET Q
-q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 501.94 Tm (Next actions) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 474.74 Tm (1. Expand the deterministic Unicode fixture.) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 452.21 Tm (2. Review API pilot requirements.) Tj ET Q
-q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 429.69 Tm (3. Publish the signed release checksums.) Tj ET Q
-q 0.94 0.95 0.96 rg 54 402.14 487 18.52 re f Q
-q 0.45 0.62 0.72 rg 54 402.14 3 18.52 re f Q
-q 0.18 0.22 0.25 rg BT /F1 11.5 Tf 1 0 0 1 68 407.16 Tm (RayoMD keeps the native path focused: predictable Markdown in, valid PDF out.) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F2 11.5 Tf 1 0 0 1 54 733.4 Tm (Period:) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 93.62 733.4 Tm ( July 2026) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F2 11.5 Tf 1 0 0 1 54 717.88 Tm (Status:) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 92.97 717.88 Tm ( On track) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 674.85 Tm (Summary) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 647.65 Tm (The release pipeline completed all scheduled exports. Native generation stayed within the) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 54 632.13 Tm (expected memory envelope and every PDF passed structural verification.) Tj ET Q
+q 0.91 0.93 0.95 rg 54 597.43 487 22.67 re f Q
+q 0.72 0.72 0.72 RG 0.45 w 54 597.43 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 59 605.5 Tm (Metric) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 216.33 597.43 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 344.33 605.5 Tm (Result) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 378.67 597.43 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F2 9.6 Tf 1 0 0 1 506.66 605.5 Tm (Target) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 54 574.76 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 582.83 Tm (Documents) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 216.33 574.76 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 344.31 582.83 Tm (12,480) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 378.67 574.76 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 506.64 582.83 Tm (10,000) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 54 552.08 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 560.16 Tm (Median render) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 216.33 552.08 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 339.52 560.16 Tm (18.4 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 378.67 552.08 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 501.58 560.16 Tm (< 25 ms) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 54 529.41 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 59 537.48 Tm (Failed exports) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 216.33 529.41 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 368.33 537.48 Tm (0) Tj ET Q
+q 0.72 0.72 0.72 RG 0.45 w 378.67 529.41 162.33 22.67 re S Q
+q 0.08 0.08 0.08 rg BT /F1 9.6 Tf 1 0 0 1 530.66 537.48 Tm (0) Tj ET Q
+q 0.02 0.02 0.02 rg BT /F2 22 Tf 1 0 0 1 54 486.41 Tm (Next actions) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 459.21 Tm (1. Expand the deterministic Unicode fixture.) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 436.69 Tm (2. Review API pilot requirements.) Tj ET Q
+q 0.08 0.08 0.08 rg BT /F1 11.5 Tf 1 0 0 1 70 414.16 Tm (3. Publish the signed release checksums.) Tj ET Q
+q 0.94 0.95 0.96 rg 54 386.61 487 18.52 re f Q
+q 0.45 0.62 0.72 rg 54 386.61 3 18.52 re f Q
+q 0.18 0.22 0.25 rg BT /F1 11.5 Tf 1 0 0 1 68 391.64 Tm (RayoMD keeps the native path focused: predictable Markdown in, valid PDF out.) Tj ET Q
 
 endstream
 endobj
@@ -59,24 +62,40 @@ endobj
 << /Type /Page /Parent 1 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 2 0 R /F2 3 0 R /F3 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
-<< /Type /Catalog /Pages 1 0 R >>
+<< /Type /Outlines /First 8 0 R /Last 8 0 R /Count 3 >>
 endobj
 8 0 obj
-<< /Producer (RayoMD Native Standard PDF) /Creator (RayoMD) /Title (Markdown Export) >>
+<< /Title (Operations report) /Parent 7 0 R /First 9 0 R /Last 10 0 R /Count 2 /Dest [6 0 R /XYZ null 792 null] >>
+endobj
+9 0 obj
+<< /Title (Summary) /Parent 8 0 R /Next 10 0 R /Dest [6 0 R /XYZ null 700.85 null] >>
+endobj
+10 0 obj
+<< /Title (Next actions) /Parent 8 0 R /Prev 9 0 R /Dest [6 0 R /XYZ null 512.41 null] >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 1 0 R /Outlines 7 0 R >>
+endobj
+12 0 obj
+<< /Producer (RayoMD Native Standard PDF) /Creator (RayoMD) /Title (Operations report) >>
 endobj
 xref
-0 9
+0 13
 0000000000 65535 f 
 0000000015 00000 n 
 0000000073 00000 n 
-0000000143 00000 n 
-0000000218 00000 n 
-0000000286 00000 n 
-0000003182 00000 n 
-0000003328 00000 n 
-0000003377 00000 n 
+0000000170 00000 n 
+0000000272 00000 n 
+0000000367 00000 n 
+0000003466 00000 n 
+0000003612 00000 n 
+0000003683 00000 n 
+0000003813 00000 n 
+0000003914 00000 n 
+0000004020 00000 n 
+0000004086 00000 n 
 trailer
-<< /Size 9 /Root 7 0 R /Info 8 0 R >>
+<< /Size 13 /Root 11 0 R /Info 12 0 R >>
 startxref
-3480
+4192
 %%EOF

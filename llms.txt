@@ -1,22 +1,26 @@
 # RayoMD
 
-> RayoMD is an Apache-2.0 native Markdown-to-PDF converter written in C++17. It provides a compact Windows application and Linux CLI without requiring Chromium, Pandoc, LaTeX, or a bundled runtime on the default native path.
+> RayoMD is an Apache-2.0 native Markdown-to-PDF converter written in C++17: a command-line tool for Linux and Windows (727 KB Linux download, needing only libc) and a C++ library. RayoMD GUI is its desktop app for Linux (Wayland) and Windows, which shows the real PDF as you type. Neither needs Chromium, Pandoc, LaTeX, or a runtime.
 
 ## Main pages
 
-- [RayoMD product page](__SITE_URL__/): Product scope, downloads, output examples, and measured performance.
+- [RayoMD product page](__SITE_URL__/): Scope, downloads, output examples, the desktop app, and measured performance.
 - [Hosted API beta](__SITE_URL__/api/): Proposed API contract, limits, founding offer, and beta request.
 - [Privacy](__SITE_URL__/privacy/): Data handling for this static website and the GitHub-based beta request.
-- [Source repository](https://github.com/Butterski/rayomd): Source code, releases, issues, and license.
+- [Source repository](https://github.com/Butterski/rayomd): The engine and CLI: source code, releases, issues, and license.
+- [RayoMD GUI](https://github.com/Butterski/rayomd-gui): The desktop app: source code, releases, and install guide.
 - [Documentation](https://github.com/Butterski/rayomd/wiki): Getting started, CLI reference, supported Markdown, benchmarks, and reversible PDFs.
-- [Windows speed comparison](https://github.com/Butterski/rayomd/wiki/Markdown-to-PDF-Speed-Comparison-2026-07-13): Fresh-process comparison against md-to-pdf and Pandoc plus XeLaTeX, with methodology and scope caveats.
-- [Optimization audit](https://github.com/Butterski/rayomd/wiki/RayoMD-2.2.0-Optimization-Audit-2026-07-13): Bounded batch-worker throughput, memory, binary size, and verification data.
+- [Comparison of 2026-10-20](https://github.com/Butterski/rayomd/wiki/Markdown-to-PDF-Comparison-2026-10-20): Fresh-process comparison against glu, Qt 6, Pandoc with Typst, WeasyPrint and XeLaTeX, and md-to-pdf, with methodology and scope caveats.
 - [Reversible PDF profile](https://github.com/Butterski/rayomd/wiki/Reversible-PDFs): Exact source embedding, inspection, recovery, privacy warning, and format limits.
+
+## What it renders
+
+GitHub-style Markdown (tables, task lists, footnotes, alerts), TeX math typeset natively in embedded fonts, code highlighted in 29 languages, Mermaid flowcharts, sequence diagrams and pie charts, PNG, JPEG and SVG images, tables of contents, numbered headings, company themes (fonts, colours, headers, footers, covers), books from mdBook or GitBook SUMMARY.md files, Obsidian notes and vaults, PDF/A-3b, and tagged PDF/UA-1.
 
 ## Important scope
 
-RayoMD targets simple reports, CI artifacts, batch conversion, embedded applications, and offline use. Native mode intentionally does not promise full CommonMark, HTML/CSS fidelity, TeX math, citations, syntax highlighting, or arbitrary templates. Use a browser renderer, Pandoc, or LaTeX when those features are required.
+RayoMD renders a Markdown subset. It does not promise full CommonMark or Pandoc compatibility, complete LaTeX (packages, macros, numbering), citations, filters, HTML/CSS layout, right-to-left scripts, or all of Mermaid. Unsupported input degrades to readable output instead of failing the export. Use a browser renderer, Pandoc, or LaTeX when those features are required.
 
-## Verified operating characteristics
+## Measured characteristics
 
-RayoMD supports bounded parallel folder and stdin batches. In the dated v2.2.0 audit, six-worker folder batches improved median throughput by 2.7x on Windows and 4.5x on Linux native ext4 versus one worker, with a documented peak-memory increase. Reversible exports use the PDF 2.0 rayomd-source/1 profile; embedding is opt-in and exposes the complete source. The default Linux package avoids a libcurl runtime dependency, while a separate curl-enabled package supports URL images.
+On 2026-10-20 (AMD Ryzen 5 PRO 4650GE, Linux), RayoMD 5.2.5 converted tester.md without images in 1.34 ms as a fresh process, start to exit, with 3.4 MiB peak memory; a running process (--serve, --batch) exports each further document in 0.16 ms. Pandoc with XeLaTeX took 2,147 ms on the same document. The tools render different subsets and look different, so this compares time to a finished PDF, not identical output. Batches run on up to 64 threads. Reversible exports (--embed-source) attach the exact Markdown in the rayomd-source/1 profile; embedding is opt-in and exposes the complete source.
